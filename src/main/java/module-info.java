@@ -4,7 +4,7 @@ module sn.dev.sponsorshipapp {
     requires java.sql;
     requires static lombok;
     requires org.controlsfx.controls;
-
+    requires actlist.plugin; 
     opens sn.dev.sponsorshipapp to javafx.fxml;
     exports sn.dev.sponsorshipapp;
     exports sn.dev.sponsorshipapp.controllers;
